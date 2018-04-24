@@ -22458,7 +22458,26 @@
       "../../babel-loader/lib/index.js?ignore=src/lib!../../devtools-modules/src/unicode-url.js": 3638,
       "../../babel-loader/lib/index.js?ignore=src/lib!../../../src/components/SecondaryPanes/ReactComponentStack.js": 3639,
       "../../babel-loader/lib/index.js?ignore=src/lib!../../../src/actions/pause/skipPausing.js": 3640,
-      "../../node-libs-browser/node_modules/punycode/punycode.js": 3641
+      "../../node-libs-browser/node_modules/punycode/punycode.js": 3641,
+      "../../babel-loader/lib/index.js?ignore=src/lib!../../../packages/devtools-source-map/src/index.js": 3642,
+      "../../babel-loader/lib/index.js?ignore=src/lib!../../../packages/devtools-source-map/src/utils/index.js": 3643,
+      "../../../packages/devtools-source-map/node_modules/source-map/lib/util.js": 3644,
+      "../../babel-loader/lib/index.js?ignore=src/lib!../../../packages/devtools-source-map/src/utils/sourceMapRequests.js": 3645,
+      "../../../packages/devtools-source-map/node_modules/source-map/source-map.js": 3646,
+      "../../../packages/devtools-source-map/node_modules/source-map/lib/source-map-generator.js": 3647,
+      "../../../packages/devtools-source-map/node_modules/source-map/lib/base64-vlq.js": 3648,
+      "../../../packages/devtools-source-map/node_modules/source-map/lib/array-set.js": 3649,
+      "../../babel-loader/lib/index.js?ignore=src/lib!../../../packages/devtools-source-map/src/worker.js": 3650,
+      "../../babel-loader/lib/index.js?ignore=src/lib!../../../packages/devtools-source-map/src/source-map.js": 3651,
+      "../../../packages/devtools-source-map/node_modules/source-map/lib/base64.js": 3652,
+      "../../../packages/devtools-source-map/node_modules/source-map/lib/mapping-list.js": 3653,
+      "../../../packages/devtools-source-map/node_modules/source-map/lib/source-map-consumer.js": 3654,
+      "../../../packages/devtools-source-map/node_modules/source-map/lib/binary-search.js": 3655,
+      "../../../packages/devtools-source-map/node_modules/source-map/lib/quick-sort.js": 3656,
+      "../../../packages/devtools-source-map/node_modules/source-map/lib/source-node.js": 3657,
+      "../../babel-loader/lib/index.js?ignore=src/lib!../../../packages/devtools-source-map/src/utils/assert.js": 3658,
+      "../../babel-loader/lib/index.js?ignore=src/lib!../../../packages/devtools-source-map/src/utils/fetchSourceMap.js": 3659,
+      "../../babel-loader/lib/index.js?ignore=src/lib!../../../packages/devtools-source-map/src/utils/wasmRemap.js": 3660
     },
     "usedIds": {
       "0": 0,
@@ -26102,7 +26121,26 @@
       "3638": 3638,
       "3639": 3639,
       "3640": 3640,
-      "3641": 3641
+      "3641": 3641,
+      "3642": 3642,
+      "3643": 3643,
+      "3644": 3644,
+      "3645": 3645,
+      "3646": 3646,
+      "3647": 3647,
+      "3648": 3648,
+      "3649": 3649,
+      "3650": 3650,
+      "3651": 3651,
+      "3652": 3652,
+      "3653": 3653,
+      "3654": 3654,
+      "3655": 3655,
+      "3656": 3656,
+      "3657": 3657,
+      "3658": 3658,
+      "3659": 3659,
+      "3660": 3660
     }
   },
   "chunks": {
@@ -26112,12 +26150,15 @@
       "pretty-print-worker": 2,
       "source-map-worker": 3,
       "parser-worker": 4,
-      "search-worker": 5
+      "search-worker": 5,
+      "source-map-index": 1
     },
     "byBlocks": {},
     "usedIds": {
       "0": 0,
+      "1": 1,
       "2": 2,
+      "3": 3,
       "4": 4,
       "5": 5
     }
@@ -29311,7 +29352,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29334,7 +29375,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29357,7 +29398,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29380,7 +29421,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29424,7 +29465,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29447,7 +29488,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29470,7 +29511,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29493,7 +29534,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29516,7 +29557,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29539,7 +29580,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29562,7 +29603,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29585,7 +29626,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29608,7 +29649,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29631,7 +29672,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29654,7 +29695,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29677,7 +29718,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29700,7 +29741,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29723,7 +29764,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29746,7 +29787,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29769,7 +29810,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29792,7 +29833,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29815,7 +29856,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29838,7 +29879,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29861,7 +29902,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29884,7 +29925,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29907,7 +29948,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29930,7 +29971,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29953,7 +29994,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29976,7 +30017,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -29999,7 +30040,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -30045,7 +30086,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -30068,7 +30109,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -30091,7 +30132,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -30114,7 +30155,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -30137,7 +30178,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -30160,7 +30201,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -30183,7 +30224,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -30206,7 +30247,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -30229,7 +30270,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -30315,7 +30356,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -30338,7 +30379,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -30361,7 +30402,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -30384,7 +30425,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -30476,7 +30517,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -30499,7 +30540,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -30566,7 +30607,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -30589,7 +30630,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "0": 0
+          "1": 1
         }
       }
     }
@@ -30612,7 +30653,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
